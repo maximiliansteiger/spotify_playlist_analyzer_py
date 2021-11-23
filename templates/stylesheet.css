@@ -1,0 +1,65 @@
+* {
+    font-family: Helvetica;
+    cursor: pointer;
+
+}
+
+
+body {
+    background-color: #2C2C2C;
+    text-align: center;
+
+}
+
+table,
+td,
+th {
+    background-color: #121212;
+    text-align: left;
+    color: #FFFFFF
+}
+
+table:hover,
+td:hover,
+th:hover {
+
+    color: #1DB954;
+
+}
+
+table {
+    display: inline-block;
+    left: auto;
+    right: auto;
+    border-collapse: collapse;
+    border-radius: 25px;
+    background-color: #121212;
+    margin: 0vh 5vh 0vh vh;
+}
+
+.centerDiv {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+
+th,
+td {
+    padding: 15px;
+}
+
+#popularity {
+    color: #1DB954;
+    margin-bottom: 10vh;
+    font-size: 6vh;
+}
+
+#popularity.h1 {
+
+    border-radius: 25px;
+    border: 1px solid #1DB954;
+
+}
