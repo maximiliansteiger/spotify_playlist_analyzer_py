@@ -7,8 +7,7 @@ import re
 from werkzeug.wrappers import response
 
 #implement id and secret from spotify
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="---",
-                                                           client_secret="---"))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="---", client_secret="---"))
 
 
 def getResponse(pl_id):
